@@ -1,0 +1,17 @@
+{
+    "events": [
+        {
+            "user_id": "foo0",
+            "device_id": "bar1",
+            "event_type": "training_program_finished",
+            "timestamp": "2021-02-28 16:59:43",
+            "training_program": {
+                "id": "2352"
+            }
+        }
+    ]
+}
+
+
+Changed "type" field to "event_type"
+Changed the structure of the "training_program" object to have "id" and "title" fields
